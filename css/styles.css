@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+}
+
+/* Header Section Styling */
+header{
+    padding: 20px;
+    background-color: black;
+}
+
+header h1{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+/* Movie Container Section */
+.selected-movie{
+    height: 55vh;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50vh 95vh 100vh;
+    margin-top: 60px;
+    padding-top: 30px;
+    color: white;
+}
+
+.inline-p{
+    display: inline;
+}
+
+.img-container img{
+    width:40vh;
+    height: 40vh;
+    margin: 30px;
+}
+
+.movie-description{
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.purchase-ticket{
+    margin-top: 30px;
+}
+
+.purchase-ticket p{
+    margin-bottom: 20px;
+}
+
+#tickets-purchased #submit-ticket{
+    border-radius: 3px;
+    border: 0px;
+    padding: 8px;
+}
+
+#ticket-response{
+    margin-top: 20px;
+}
+
+/* Other Movies Section */
+.other-movies{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-around;
+}
+
+.movie-card{
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.movie-card img{
+    height: 30vh;
+    width: 100%;
+    
+}
+
+.movie-card p{ 
+    background-color: rgb(0, 0, 0);
+    color:white;
+    margin-top: -8px;
+    padding: 5px;
+}
+
+/* Footer Section*/
+footer{
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
